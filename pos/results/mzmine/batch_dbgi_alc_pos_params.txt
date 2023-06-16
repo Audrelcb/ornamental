@@ -145,54 +145,7 @@
         </module>
         <module class="io.github.mzmine.modules.tools.sortpeaklists.SortPeakListsModule">
             <parameters>
-                <parameter name="Feature lists" type="SPECIFIC_PEAKLISTS">
-                    <specific_peak_list>1685365277_ALC_dbgi_001139_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001140_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001141_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001142_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001143_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001144_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001145_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001146_01_02.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001147_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001148_01_02.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001149_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001150_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001151_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001152_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001153_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001156_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001157_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001158_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001159_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001160_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001161_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001162_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001163_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001166_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001169_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001173_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001174_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001175_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001176_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001177_01_02.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001178_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001182_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001183_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001184_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001185_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001186_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001187_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001188_01_01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_BK00.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_QC00.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_QC01.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_QC02.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_QC03.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_QC04.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_QC05.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_QC06.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
-                </parameter>
+                <parameter name="Feature lists" type="SPECIFIC_PEAKLISTS"/>
             </parameters>
         </module>
         <module class="io.github.mzmine.modules.dataprocessing.align_adap3.ADAP3AlignerModule">
@@ -422,7 +375,6 @@
                 <parameter name="Filename">
                     <current_file>/home/lecabeca/gitrepo/ornamental/pos/results/mzmine/batch_dbgi_alc_pos.mgf</current_file>
                     <last_file>/home/lecabeca/gitrepo/ornamental/pos/results/mzmine/batch_dbgi_alc_pos.mgf</last_file>
-                    <last_file>/home/lecabeca/gitrepo/ornamental/enpkg/pos/{}.mgf</last_file>
                     <last_file>/home/allardpm/git_repos/mapp-metabolomics/adria-leboeuf-group/docs/mapp_project_00020/mapp_batch_00036/results/mzmine/mapp_batch_00036.mgf</last_file>
                     <last_file>/home/allardpm/git_repos/mapp-metabolomics/laure-weisskopf-group/docs/mapp_project_00016/mapp_batch_00022/results/mzmine/mapp_batch_00022.mgf</last_file>
                     <last_file>/home/allardpm/git_repos/DBGI/dbgi-tropical-pilot/docs/results/dbgi_pilot_tropical_selected.mgf</last_file>
@@ -643,7 +595,6 @@
                 <parameter name="Filename">
                     <current_file>/home/lecabeca/gitrepo/ornamental/pos/results/mzmine/batch_dbgi_alc_pos_sirius.mgf</current_file>
                     <last_file>/home/lecabeca/gitrepo/ornamental/pos/results/mzmine/batch_dbgi_alc_pos_sirius.mgf</last_file>
-                    <last_file>/home/lecabeca/gitrepo/ornamental/enpkg/pos/{}.mgf</last_file>
                     <last_file>/home/allardpm/git_repos/mapp-metabolomics/adria-leboeuf-group/docs/mapp_project_00020/mapp_batch_00036/results/mzmine/mapp_batch_00036_sirius.mgf</last_file>
                     <last_file>/home/allardpm/git_repos/mapp-metabolomics/laure-weisskopf-group/docs/mapp_project_00016/mapp_batch_00022/results/mzmine/mapp_batch_00022_sirius.mgf</last_file>
                 </parameter>
@@ -741,54 +692,7 @@
         </module>
         <module class="io.github.mzmine.modules.tools.sortdatafiles.SortDataFilesModule">
             <parameters>
-                <parameter name="Raw data files" type="SPECIFIC_FILES">
-                    <specific_file>1685365277_ALC_dbgi_BK00.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001152_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001148_01_02.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001162_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001173_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001161_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001142_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001156_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001183_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001188_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001178_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001150_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001185_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001140_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001187_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001153_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001160_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001169_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001149_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001174_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_QC02.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001163_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_QC00.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001182_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001184_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001175_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_QC04.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_QC03.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_QC01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001177_01_02.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001146_01_02.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001186_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_QC06.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001159_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001139_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001157_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001141_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_QC05.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001144_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001166_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001151_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001143_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001147_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001158_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001145_01_01.mzML</specific_file>
-                    <specific_file>1685365277_ALC_dbgi_001176_01_01.mzML</specific_file>
-                </parameter>
+                <parameter name="Raw data files" type="SPECIFIC_FILES"/>
             </parameters>
         </module>
         <module class="io.github.mzmine.modules.dataprocessing.id_adductsearch.AdductSearchModule">
@@ -969,7 +873,7 @@
             <parameters>
                 <parameter name="Feature lists" type="GUI_SELECTED_PEAKLISTS"/>
                 <parameter name="Raw data files" type="ALL_FILES"/>
-                <parameter name="Coloring type" type="parameter">ATTRIBUE_genus</parameter>
+                <parameter name="Coloring type"/>
                 <parameter name="Peak measurement type">Peak height</parameter>
                 <parameter name="X-axis component">1</parameter>
                 <parameter name="Y-axis component">2</parameter>
@@ -1196,7 +1100,7 @@
             <parameters>
                 <parameter name="Feature lists" type="GUI_SELECTED_PEAKLISTS"/>
                 <parameter name="Raw data files" type="ALL_FILES"/>
-                <parameter name="Coloring type" type="parameter">ATTRIBUE_genus</parameter>
+                <parameter name="Coloring type"/>
                 <parameter name="Peak measurement type">Peak height</parameter>
                 <parameter name="X-axis component">1</parameter>
                 <parameter name="Y-axis component">2</parameter>
@@ -1778,9 +1682,7 @@
         </module>
         <module class="io.github.mzmine.modules.visualization.tic.TICVisualizerModule">
             <parameters>
-                <parameter name="Raw data files" type="SPECIFIC_FILES">
-                    <specific_file>1685365277_ALC_dbgi_QC01.mzML</specific_file>
-                </parameter>
+                <parameter name="Raw data files" type="SPECIFIC_FILES"/>
                 <parameter name="Scans">
                     <retention_time>
                         <min>0.0</min>
@@ -1859,7 +1761,7 @@
             <parameters>
                 <parameter name="Feature lists" type="GUI_SELECTED_PEAKLISTS"/>
                 <parameter name="Raw data files" type="ALL_FILES"/>
-                <parameter name="Coloring type" type="parameter">ATTRIBUE_genus</parameter>
+                <parameter name="Coloring type"/>
                 <parameter name="Peak measurement type">Peak height</parameter>
                 <parameter name="X-axis component">1</parameter>
                 <parameter name="Y-axis component">2</parameter>
