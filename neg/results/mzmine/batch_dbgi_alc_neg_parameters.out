@@ -1749,7 +1749,7 @@
         <module class="io.github.mzmine.modules.io.projectsave.ProjectSaveAsModule">
             <parameters>
                 <parameter name="Project file">
-                    <current_file>/home/lecabeca/test/mapp_batch_dbgi_ALC_neg.mzmine</current_file>
+                    <current_file>/home/lecabeca/documents/mzmine_project/mapp_batch_dbgi_ALC_neg.mzmine</current_file>
                 </parameter>
             </parameters>
         </module>
