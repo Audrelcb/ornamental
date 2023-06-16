@@ -14,28 +14,28 @@
         </parameter>
         <parameter name="Send anonymous statistics">true</parameter>
         <parameter name="Window state">
-            <position>0:0</position>
+            <position>12:0</position>
             <size>1366:768</size>
             <maximized>false</maximized>
         </parameter>
         <parameter name="Send error e-Mail notifications" selected="false"/>
     </preferences>
     <lastprojects>
-        <file>/home/lecabeca/documents/mzmine_project/mapp_batch_dbgi_ALC_pos.mzmine</file>
+        <file>/home/lecabeca/documents/mzmine_project/mapp_batch_dbgi_ALC_neg.mzmine</file>
     </lastprojects>
     <modules>
         <module class="io.github.mzmine.modules.dataanalysis.clustering.ClusteringModule">
             <parameters>
                 <parameter name="Feature lists" type="GUI_SELECTED_PEAKLISTS"/>
-                <parameter name="Peak measurement type">Peak height</parameter>
-                <parameter name="Raw data files" type="GUI_SELECTED_FILES"/>
+                <parameter name="Peak measurement type"/>
+                <parameter name="Raw data files" type="ALL_FILES"/>
                 <parameter name="Feature list rows">
                     <selection/>
                 </parameter>
-                <parameter name="Clustering algorithm" selected="Density-based clusterer">
+                <parameter name="Clustering algorithm">
                     <module name="Density-based clusterer">
                         <parameter name="Number of iterantions">3</parameter>
-                        <parameter name="Visualization type">Sammon's projection</parameter>
+                        <parameter name="Visualization type"/>
                     </module>
                     <module name="Farthest first clusterer">
                         <parameter name="Visualization type"/>
@@ -50,7 +50,7 @@
                         <parameter name="Distances"/>
                     </module>
                 </parameter>
-                <parameter name="Type of data">Samples</parameter>
+                <parameter name="Type of data"/>
             </parameters>
         </module>
         <module class="io.github.mzmine.modules.dataprocessing.featdet_targeted.TargetedPeakDetectionModule">
@@ -274,7 +274,7 @@
                     <absolutetolerance>0.001</absolutetolerance>
                     <ppmtolerance>5.0</ppmtolerance>
                 </parameter>
-                <parameter name="Elements">S[0-30]P[0-30]H[0-100]C[0-100]N[0-50]O[0-50]</parameter>
+                <parameter name="Elements">P[0-30]S[0-30]H[0-100]N[0-50]C[0-100]O[0-50]</parameter>
                 <parameter name="Element count heuristics" selected="false">
                     <parameter name="H/C ratio">true</parameter>
                     <parameter name="NOPS/C ratios">true</parameter>
@@ -320,7 +320,7 @@
                     <absolutetolerance>0.001</absolutetolerance>
                     <ppmtolerance>5.0</ppmtolerance>
                 </parameter>
-                <parameter name="Elements">S[0-30]P[0-30]H[0-100]C[0-100]N[0-50]O[0-50]</parameter>
+                <parameter name="Elements">P[0-30]S[0-30]H[0-100]N[0-50]C[0-100]O[0-50]</parameter>
                 <parameter name="Element count heuristics" selected="false">
                     <parameter name="H/C ratio">true</parameter>
                     <parameter name="NOPS/C ratios">true</parameter>
@@ -364,9 +364,9 @@
             <parameters>
                 <parameter name="Feature lists" type="GUI_SELECTED_PEAKLISTS"/>
                 <parameter name="Filename">
-                    <current_file>/home/lecabeca/test/enpkg/pos/{}.mgf</current_file>
-                    <last_file>/home/lecabeca/test/enpkg/pos/{}.mgf</last_file>
-                    <last_file>/home/lecabeca/gitrepo/ornamental/pos/results/mzmine/mapp_batch_dbgi_ALC_pos.mgf</last_file>
+                    <current_file>/home/lecabeca/gitrepo/ornamental/neg/results/mzmine/batch_dbgi_alc_neg.mgf</current_file>
+                    <last_file>/home/lecabeca/gitrepo/ornamental/neg/results/mzmine/batch_dbgi_alc_neg.mgf</last_file>
+                    <last_file>/home/lecabeca/gitrepo/ornamental/enpkg/neg/{}.mgf</last_file>
                     <last_file>/home/allardpm/git_repos/mapp-metabolomics/adria-leboeuf-group/docs/mapp_project_00020/mapp_batch_00036/results/mzmine/mapp_batch_00036.mgf</last_file>
                     <last_file>/home/allardpm/git_repos/mapp-metabolomics/laure-weisskopf-group/docs/mapp_project_00016/mapp_batch_00022/results/mzmine/mapp_batch_00022.mgf</last_file>
                     <last_file>/home/allardpm/git_repos/DBGI/dbgi-tropical-pilot/docs/results/dbgi_pilot_tropical_selected.mgf</last_file>
@@ -399,7 +399,7 @@
         </module>
         <module class="io.github.mzmine.modules.dataprocessing.featdet_massdetection.MassDetectionModule">
             <parameters>
-                <parameter name="Raw data files" type="GUI_SELECTED_FILES"/>
+                <parameter name="Raw data files" type="ALL_FILES"/>
                 <parameter name="Scans">
                     <ms_level>2</ms_level>
                     <scan_definition/>
@@ -559,7 +559,7 @@
         </module>
         <module class="io.github.mzmine.modules.dataprocessing.featdet_chromatogramdeconvolution.DeconvolutionModule">
             <parameters>
-                <parameter name="Feature lists" type="GUI_SELECTED_PEAKLISTS"/>
+                <parameter name="Feature lists" type="ALL_PEAKLISTS"/>
                 <parameter name="Suffix">deconvoluted</parameter>
                 <parameter name="Algorithm" selected="Wavelets (ADAP)">
                     <module name="Baseline cut-off">
@@ -652,55 +652,8 @@
         <module class="io.github.mzmine.modules.dataanalysis.rtmzplots.cvplot.CVPlotModule">
             <parameters>
                 <parameter name="Feature lists" type="GUI_SELECTED_PEAKLISTS"/>
-                <parameter name="Data files">
-                    <item>1685365277_ALC_dbgi_001139_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001140_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001141_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001142_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001143_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001144_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001145_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001146_01_02.mzML</item>
-                    <item>1685365277_ALC_dbgi_001147_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001148_01_02.mzML</item>
-                    <item>1685365277_ALC_dbgi_001149_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001150_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001151_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001152_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001153_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001156_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001157_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001158_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001159_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001160_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001161_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001162_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001163_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001166_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001169_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001173_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001174_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001175_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001176_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001177_01_02.mzML</item>
-                    <item>1685365277_ALC_dbgi_001178_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001182_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001183_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001184_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001185_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001186_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001187_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_001188_01_01.mzML</item>
-                    <item>1685365277_ALC_dbgi_BK00.mzML</item>
-                    <item>1685365277_ALC_dbgi_QC00.mzML</item>
-                    <item>1685365277_ALC_dbgi_QC01.mzML</item>
-                    <item>1685365277_ALC_dbgi_QC02.mzML</item>
-                    <item>1685365277_ALC_dbgi_QC03.mzML</item>
-                    <item>1685365277_ALC_dbgi_QC04.mzML</item>
-                    <item>1685365277_ALC_dbgi_QC05.mzML</item>
-                    <item>1685365277_ALC_dbgi_QC06.mzML</item>
-                </parameter>
-                <parameter name="Peak measurement type">Peak height</parameter>
+                <parameter name="Data files"/>
+                <parameter name="Peak measurement type"/>
             </parameters>
         </module>
         <module class="io.github.mzmine.modules.dataprocessing.id_isotopepeakscanner.IsotopePeakScannerModule">
@@ -820,7 +773,9 @@
         </module>
         <module class="io.github.mzmine.modules.visualization.tic.TICVisualizerModule">
             <parameters>
-                <parameter name="Raw data files" type="SPECIFIC_FILES"/>
+                <parameter name="Raw data files" type="SPECIFIC_FILES">
+                    <specific_file>1685365277_ALC_dbgi_QC00_neg.mzML</specific_file>
+                </parameter>
                 <parameter name="Scans">
                     <retention_time>
                         <min>0.0</min>
@@ -836,7 +791,7 @@
                 </parameter>
                 <parameter name="Peaks"/>
                 <parameter name="Window state">
-                    <position>98:21</position>
+                    <position>32:9</position>
                     <size>1085:647</size>
                     <maximized>false</maximized>
                 </parameter>
@@ -868,7 +823,7 @@
                 <parameter name="Retention time tolerance" type="absolute">0.08</parameter>
                 <parameter name="Monotonic shape">false</parameter>
                 <parameter name="Maximum charge">2</parameter>
-                <parameter name="Representative isotope">Lowest m/z</parameter>
+                <parameter name="Representative isotope">Most intense</parameter>
                 <parameter name="Remove original peaklist">false</parameter>
             </parameters>
         </module>
@@ -996,12 +951,12 @@
         </module>
         <module class="io.github.mzmine.modules.dataanalysis.projectionplots.SammonsPlotModule">
             <parameters>
-                <parameter name="Feature lists" type="GUI_SELECTED_PEAKLISTS"/>
+                <parameter name="Feature lists" type="SPECIFIC_PEAKLISTS"/>
                 <parameter name="Raw data files" type="GUI_SELECTED_FILES"/>
-                <parameter name="Coloring type" type="parameter">ATTRIBUTE_localisation</parameter>
+                <parameter name="Coloring type"/>
                 <parameter name="Peak measurement type">Peak height</parameter>
                 <parameter name="X-axis component">1</parameter>
-                <parameter name="Y-axis component">4</parameter>
+                <parameter name="Y-axis component">2</parameter>
             </parameters>
         </module>
         <module class="io.github.mzmine.modules.visualization.neutralloss.NeutralLossVisualizerModule">
@@ -1109,7 +1064,7 @@
                     <absolutetolerance>0.001</absolutetolerance>
                     <ppmtolerance>5.0</ppmtolerance>
                 </parameter>
-                <parameter name="Elements">F[0-0]S[0-100]P[0-100]I[0-0]B[0-0]Cl[0-0]H[0-100]C[0-100]Se[0-0]N[0-100]O[0-100]Br[0-0]</parameter>
+                <parameter name="Elements">F[0-0]P[0-100]S[0-100]I[0-0]B[0-0]Cl[0-0]H[0-100]N[0-100]C[0-100]Se[0-0]O[0-100]Br[0-0]</parameter>
                 <parameter name="Mass list"/>
                 <parameter name="Amount of Sirius candidates to return">1</parameter>
                 <parameter name="Amount of FingerId results to return">1</parameter>
@@ -1138,8 +1093,8 @@
         <module class="io.github.mzmine.modules.dataprocessing.filter_rowsfilter.RowsFilterModule">
             <parameters>
                 <parameter name="Feature lists" type="GUI_SELECTED_PEAKLISTS"/>
-                <parameter name="Name suffix">filtered_ip_ms2</parameter>
-                <parameter name="Minimum peaks in a row" selected="false">3.0</parameter>
+                <parameter name="Name suffix">filtered_ms2</parameter>
+                <parameter name="Minimum peaks in a row" selected="true">2.0</parameter>
                 <parameter name="Minimum peaks in an isotope pattern" selected="true">2</parameter>
                 <parameter name="m/z" selected="false">
                     <min>365.0</min>
@@ -1169,7 +1124,7 @@
                     <parameter name="Divisor">1</parameter>
                     <parameter name="Use Remainder of Kendrick mass">false</parameter>
                 </parameter>
-                <parameter name="Parameter">Ignore groups</parameter>
+                <parameter name="Parameter">No parameters defined</parameter>
                 <parameter name="Only identified?">false</parameter>
                 <parameter name="Text in identity" selected="false"/>
                 <parameter name="Text in comment" selected="false"/>
@@ -1380,13 +1335,10 @@
         <module class="io.github.mzmine.modules.dataanalysis.heatmaps.HeatMapModule">
             <parameters>
                 <parameter name="Feature lists" type="GUI_SELECTED_PEAKLISTS"/>
-                <parameter name="Output name">
-                    <current_file>/home/lecabeca</current_file>
-                    <last_file>/home/lecabeca</last_file>
-                </parameter>
+                <parameter name="Output name"/>
                 <parameter name="Output file type">pdf</parameter>
-                <parameter name="Sample parameter">ATTRIBUE_genus</parameter>
-                <parameter name="Group of reference">NA</parameter>
+                <parameter name="Sample parameter"/>
+                <parameter name="Group of reference"/>
                 <parameter name="Only identified rows">false</parameter>
                 <parameter name="Use peak area">true</parameter>
                 <parameter name="Scaling">true</parameter>
@@ -1404,52 +1356,52 @@
         <module class="io.github.mzmine.modules.tools.sortpeaklists.SortPeakListsModule">
             <parameters>
                 <parameter name="Feature lists" type="SPECIFIC_PEAKLISTS">
-                    <specific_peak_list>1685365277_ALC_dbgi_001139_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001140_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001141_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001142_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001143_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001144_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001145_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001146_01_02.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001147_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001148_01_02.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001149_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001150_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001151_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001152_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001153_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001156_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001157_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001158_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001159_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001160_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001161_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001162_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001163_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001166_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001169_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001173_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001174_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001175_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001176_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001177_01_02.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001178_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001182_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001183_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001184_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001185_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001186_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001187_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_001188_01_01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_BK00.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_QC00.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_QC01.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_QC02.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_QC03.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_QC04.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_QC05.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
-                    <specific_peak_list>1685365277_ALC_dbgi_QC06.mzML chromatograms deconvoluted deisotoped filtered_ms2</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_BK00_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001173_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001152_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001160_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001162_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001184_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001188_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001150_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001140_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001153_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001178_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001149_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001156_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001175_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001148_01_02_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001146_01_02_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001151_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001139_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001185_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001177_01_02_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001157_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001161_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001145_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001187_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001176_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001144_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001186_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001142_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001159_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001174_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001183_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001182_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001141_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001163_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_QC03_neg_20230530152214.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001158_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001147_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001169_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001143_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_QC06_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_QC01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_QC04_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_QC02_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_QC05_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_QC00_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
+                    <specific_peak_list>1685365277_ALC_dbgi_001166_01_01_neg.mzML chromatograms deconvoluted deisotoped</specific_peak_list>
                 </parameter>
             </parameters>
         </module>
@@ -1471,7 +1423,7 @@
                     <ppmtolerance>5.0</ppmtolerance>
                 </parameter>
                 <parameter name="Noise level">0.0</parameter>
-                <parameter name="Elements">S[0-30]P[0-30]H[0-100]C[0-100]N[0-50]O[0-50]</parameter>
+                <parameter name="Elements">P[0-30]S[0-30]H[0-100]N[0-50]C[0-100]O[0-50]</parameter>
                 <parameter name="Element count heuristics" selected="false">
                     <parameter name="H/C ratio">true</parameter>
                     <parameter name="NOPS/C ratios">true</parameter>
@@ -1514,7 +1466,7 @@
                 <parameter name="Row height">30</parameter>
                 <parameter name="Peak shape normalization">Peak maximum</parameter>
                 <parameter name="Window state">
-                    <position>24:0</position>
+                    <position>4:0</position>
                     <size>1254:682</size>
                     <maximized>false</maximized>
                 </parameter>
@@ -1555,8 +1507,8 @@
             <parameters>
                 <parameter name="Feature lists" type="GUI_SELECTED_PEAKLISTS"/>
                 <parameter name="Filename">
-                    <current_file>/home/lecabeca/test/enpkg/neg/{}.mgf</current_file>
-                    <last_file>/home/lecabeca/test/enpkg/neg/{}.mgf</last_file>
+                    <current_file>/home/lecabeca/gitrepo/ornamental/neg/results/mzmine/batch_dbgi_alc_neg.mgf</current_file>
+                    <last_file>/home/lecabeca/gitrepo/ornamental/neg/results/mzmine/batch_dbgi_alc_neg.mgf</last_file>
                 </parameter>
                 <parameter name="Representative m/z">As in feature table</parameter>
                 <parameter name="Fractional m/z values">false</parameter>
@@ -1625,9 +1577,9 @@
                 <parameter name="Feature lists" type="GUI_SELECTED_PEAKLISTS"/>
                 <parameter name="Mass list">masses</parameter>
                 <parameter name="Filename">
-                    <current_file>/home/lecabeca/test/enpkg/pos/{}_sirius.mgf</current_file>
-                    <last_file>/home/lecabeca/test/enpkg/pos/{}_sirius.mgf</last_file>
-                    <last_file>/home/lecabeca/gitrepo/ornamental/pos/results/mzmine/mapp_batch_dbgi_ALC_pos_sirius.mgf</last_file>
+                    <current_file>/home/lecabeca/gitrepo/ornamental/neg/results/mzmine/batch_dbgi_alc_neg_sirius.mgf</current_file>
+                    <last_file>/home/lecabeca/gitrepo/ornamental/neg/results/mzmine/batch_dbgi_alc_neg_sirius.mgf</last_file>
+                    <last_file>/home/lecabeca/gitrepo/ornamental/enpkg/neg/{}_sirius.mgf</last_file>
                     <last_file>/home/allardpm/git_repos/mapp-metabolomics/adria-leboeuf-group/docs/mapp_project_00020/mapp_batch_00036/results/mzmine/mapp_batch_00036_sirius.mgf</last_file>
                     <last_file>/home/allardpm/git_repos/mapp-metabolomics/laure-weisskopf-group/docs/mapp_project_00016/mapp_batch_00022/results/mzmine/mapp_batch_00022_sirius.mgf</last_file>
                 </parameter>
@@ -1692,11 +1644,52 @@
         <module class="io.github.mzmine.modules.io.rawdataimport.RawDataImportModule">
             <parameters>
                 <parameter name="Raw data file names">
-                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_01.mzML</file>
-                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_02.mzML</file>
-                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_03.mzML</file>
-                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_04.mzML</file>
-                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_05.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001139_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001140_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001141_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001142_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001143_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001144_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001145_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001146_01_02_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001147_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001148_01_02_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001149_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001150_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001151_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001152_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001153_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001156_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001157_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001158_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001159_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001160_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001161_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001162_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001163_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001166_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001169_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001173_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001174_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001175_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001176_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001177_01_02_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001178_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001182_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001183_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001184_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001185_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001186_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001187_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_001188_01_01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_BK00_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_QC00_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_QC01_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_QC02_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_QC03_neg_20230530152214.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_QC04_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_QC05_neg.mzML</file>
+                    <file>/media/share/private/MS_Data/LCMS/QE_plus_unifr/converted/2023/05/1685365277_ALC_dbgi_QC06_neg.mzML</file>
                 </parameter>
             </parameters>
         </module>
@@ -1705,14 +1698,16 @@
                 <parameter name="Feature lists" type="GUI_SELECTED_PEAKLISTS"/>
                 <parameter name="RT tolerance" type="absolute">0.08</parameter>
                 <parameter name="Adducts">
-                    <adduct mass_difference="21.9825" name="[M+Na-H]" selected="true"/>
-                    <adduct mass_difference="37.9559" name="[M+K-H]" selected="true"/>
+                    <adduct mass_difference="21.9825" name="[M+Na-H]" selected="false"/>
+                    <adduct mass_difference="37.9559" name="[M+K-H]" selected="false"/>
                     <adduct mass_difference="21.9694" name="[M+Mg-2H]" selected="false"/>
-                    <adduct mass_difference="17.0265" name="[M+NH3]" selected="true"/>
+                    <adduct mass_difference="17.0265" name="[M+NH3]" selected="false"/>
                     <adduct mass_difference="97.9769" name="[M+H3PO4]" selected="false"/>
                     <adduct mass_difference="97.9674" name="[M+H2SO4]" selected="false"/>
                     <adduct mass_difference="62.0004" name="[M+H2CO3]" selected="false"/>
                     <adduct mass_difference="5.0" name="[(Deuterium)]glycerol" selected="false"/>
+                    <adduct mass_difference="34.9694" name="[M+Cl]–" selected="true"/>
+                    <adduct mass_difference="44.9982" name="[M+CHO2]–" selected="true"/>
                 </parameter>
                 <parameter name="m/z tolerance">
                     <absolutetolerance>0.001</absolutetolerance>
@@ -1735,15 +1730,15 @@
                 <parameter name="Scans">
                     <retention_time>
                         <min>0.5</min>
-                        <max>8.0</max>
+                        <max>12.0</max>
                     </retention_time>
                     <ms_level>1</ms_level>
                     <scan_definition/>
                 </parameter>
                 <parameter name="Mass list">masses</parameter>
                 <parameter name="Min group size in # of scans">5</parameter>
-                <parameter name="Group intensity threshold">20000.0</parameter>
-                <parameter name="Min highest intensity">20000.0</parameter>
+                <parameter name="Group intensity threshold">10000.0</parameter>
+                <parameter name="Min highest intensity">10000.0</parameter>
                 <parameter name="m/z tolerance">
                     <absolutetolerance>0.01</absolutetolerance>
                     <ppmtolerance>12.0</ppmtolerance>
@@ -1754,7 +1749,7 @@
         <module class="io.github.mzmine.modules.io.projectsave.ProjectSaveAsModule">
             <parameters>
                 <parameter name="Project file">
-                    <current_file>/home/lecabeca/test/mapp_batch_dbgi_ALC_pos.mzmine</current_file>
+                    <current_file>/home/lecabeca/test/mapp_batch_dbgi_ALC_neg.mzmine</current_file>
                 </parameter>
             </parameters>
         </module>
@@ -1815,7 +1810,7 @@
                     <ppmtolerance>5.0</ppmtolerance>
                 </parameter>
                 <parameter name="Max best formulas per peak"/>
-                <parameter name="Elements">S[0-30]P[0-30]H[0-100]C[0-100]N[0-50]O[0-50]</parameter>
+                <parameter name="Elements">P[0-30]S[0-30]H[0-100]N[0-50]C[0-100]O[0-50]</parameter>
                 <parameter name="Element count heuristics" selected="false">
                     <parameter name="H/C ratio">true</parameter>
                     <parameter name="NOPS/C ratios">true</parameter>
@@ -1849,7 +1844,7 @@
         <module class="io.github.mzmine.modules.io.projectsave.ProjectSaveModule">
             <parameters>
                 <parameter name="Project file">
-                    <current_file>/home/lecabeca/test/mapp_batch_dbgi_ALC_pos.mzmine</current_file>
+                    <current_file>/home/lecabeca/test/mapp_batch_dbgi_ALC_neg.mzmine</current_file>
                 </parameter>
             </parameters>
         </module>
@@ -2030,12 +2025,12 @@
         </module>
         <module class="io.github.mzmine.modules.dataanalysis.projectionplots.CDAPlotModule">
             <parameters>
-                <parameter name="Feature lists" type="GUI_SELECTED_PEAKLISTS"/>
+                <parameter name="Feature lists" type="SPECIFIC_PEAKLISTS"/>
                 <parameter name="Raw data files" type="GUI_SELECTED_FILES"/>
-                <parameter name="Coloring type" type="parameter">ATTRIBUTE_localisation</parameter>
+                <parameter name="Coloring type"/>
                 <parameter name="Peak measurement type">Peak height</parameter>
                 <parameter name="X-axis component">1</parameter>
-                <parameter name="Y-axis component">4</parameter>
+                <parameter name="Y-axis component">2</parameter>
             </parameters>
         </module>
         <module class="io.github.mzmine.modules.dataprocessing.featdet_manual.XICManualPickerModule">
@@ -2085,12 +2080,12 @@
         </module>
         <module class="io.github.mzmine.modules.dataanalysis.projectionplots.PCAPlotModule">
             <parameters>
-                <parameter name="Feature lists" type="GUI_SELECTED_PEAKLISTS"/>
+                <parameter name="Feature lists" type="SPECIFIC_PEAKLISTS"/>
                 <parameter name="Raw data files" type="GUI_SELECTED_FILES"/>
-                <parameter name="Coloring type" type="parameter">ATTRIBUTE_localisation</parameter>
+                <parameter name="Coloring type"/>
                 <parameter name="Peak measurement type">Peak height</parameter>
                 <parameter name="X-axis component">1</parameter>
-                <parameter name="Y-axis component">4</parameter>
+                <parameter name="Y-axis component">2</parameter>
             </parameters>
         </module>
         <module class="io.github.mzmine.modules.visualization.spectra.simplespectra.spectraidentification.lipidsearch.LipidSpectraSearchModule">
