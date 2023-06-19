@@ -1,0 +1,47 @@
+filename	sample_id	sample_type	ATTRIBUTE_species	ATTRIBUTE_genus	ATTRIBUTE_localisation
+1685365277_ALC_dbgi_001139_01_01.mzML	dbgi_001139	sample 	Lonicera caprifolium	Lonicera	jbuf
+1685365277_ALC_dbgi_001140_01_01.mzML	dbgi_001140	sample 	Clematis terniflora	Clematis	jbn
+1685365277_ALC_dbgi_001141_01_01.mzML	dbgi_001141	sample 	Lonicera nigra	Lonicera	jbn
+1685365277_ALC_dbgi_001142_01_01.mzML	dbgi_001142	sample 	Clematis b	Clematis	jbn
+1685365277_ALC_dbgi_001143_01_01.mzML	dbgi_001143	sample 	Lonicera etrusca 	Lonicera	jbn
+1685365277_ALC_dbgi_001144_01_01.mzML	dbgi_001144	sample 	Clematis terniflora	Clematis	jbn
+1685365277_ALC_dbgi_001145_01_01.mzML	dbgi_001145	sample 	Lonicera xylosteum	Lonicera	jbn
+1685365277_ALC_dbgi_001146_01_02.mzML	dbgi_001146	sample 	Clematis tangutica 	Clematis	jbn
+1685365277_ALC_dbgi_001147_01_01.mzML	dbgi_001147	sample 	Lonicera caucasica	Lonicera	jbn
+1685365277_ALC_dbgi_001148_01_02.mzML	dbgi_001148	sample 	Euonymus alatus 	Euonymus	jbn
+1685365277_ALC_dbgi_001149_01_01.mzML	dbgi_001149	sample 	Lonicera etrusca 	Lonicera	jbn
+1685365277_ALC_dbgi_001150_01_01.mzML	dbgi_001150	sample 	Clematis	Clematis	jbn
+1685365277_ALC_dbgi_001151_01_01.mzML	dbgi_001151	sample 	Clematis a	Clematis	jbn
+1685365277_ALC_dbgi_001152_01_01.mzML	dbgi_001152	sample 	Clematis flammula	Clematis	jbn
+1685365277_ALC_dbgi_001153_01_01.mzML	dbgi_001153	sample 	Clematis chinensis 	Clematis	jbn
+1685365277_ALC_dbgi_001156_01_01.mzML	dbgi_001156	sample 	Clematis alpina 	Clematis	jbuf
+1685365277_ALC_dbgi_001157_01_01.mzML	dbgi_001157	sample 	Euonymus fortunei	Euonymus	jbuf
+1685365277_ALC_dbgi_001158_01_01.mzML	dbgi_001158	sample 	Lonicera alpigena	Lonicera	jbuf
+1685365277_ALC_dbgi_001159_01_01.mzML	dbgi_001159	sample 	Lonicera xylosteum	Lonicera	jbn
+1685365277_ALC_dbgi_001160_01_01.mzML	dbgi_001160	sample 	Clematis alpina	Clematis	jbn
+1685365277_ALC_dbgi_001161_01_01.mzML	dbgi_001161	sample 	Clematis vitalba	Clematis	jbn
+1685365277_ALC_dbgi_001162_01_01.mzML	dbgi_001162	sample 	Clematis recta	Clematis	jbuf
+1685365277_ALC_dbgi_001163_01_01.mzML	dbgi_001163	sample 	Lonicera implexa	Lonicera	jbn
+1685365277_ALC_dbgi_001166_01_01.mzML	dbgi_001166	sample 	Lonicera caerulea	Lonicera	jbuf
+1685365277_ALC_dbgi_001169_01_01.mzML	dbgi_001169	sample 	Lonicera japonica	Lonicera	jbuf
+1685365277_ALC_dbgi_001173_01_01.mzML	dbgi_001173	sample 	Clematis recta	Clematis	jbn
+1685365277_ALC_dbgi_001174_01_01.mzML	dbgi_001174	sample 	Lonicera nigra	Lonicera	jbuf
+1685365277_ALC_dbgi_001175_01_01.mzML	dbgi_001175	sample 	Clematis viticella	Clematis	jbuf
+1685365277_ALC_dbgi_001176_01_01.mzML	dbgi_001176	sample 	Lonicera tatarica	Lonicera	jbuf
+1685365277_ALC_dbgi_001177_01_02.mzML	dbgi_001177	sample 	Euonymus europaeus	Euonymus	jbuf
+1685365277_ALC_dbgi_001178_01_01.mzML	dbgi_001178	sample 	Euonymus alatus	Euonymus	jbuf
+1685365277_ALC_dbgi_001182_01_01.mzML	dbgi_001182	sample 	Clematis alpina	Clematis	jbuf
+1685365277_ALC_dbgi_001183_01_01.mzML	dbgi_001183	sample 	Lonicera kamtschatica	Lonicera	jbuf
+1685365277_ALC_dbgi_001184_01_01.mzML	dbgi_001184	sample 	Lonicera periclymenum	Lonicera	jbuf
+1685365277_ALC_dbgi_001185_01_01.mzML	dbgi_001185	sample 	Clematis heracleifolia	Clematis	jbuf
+1685365277_ALC_dbgi_001186_01_01.mzML	dbgi_001186	sample 	Clematis vitalba	Clematis	jbuf
+1685365277_ALC_dbgi_001187_01_01.mzML	dbgi_001187	sample 	Lonicera xylosteum	Lonicera	jbuf
+1685365277_ALC_dbgi_001188_01_01.mzML	dbgi_001188	sample 	Clematis recta	Clematis	jbuf
+1685365277_ALC_dbgi_BK00.mzML	BK00	BK	NA	NA	NA
+1685365277_ALC_dbgi_QC00.mzML	QC00	QC	NA	NA	NA
+1685365277_ALC_dbgi_QC01.mzML	QC01	QC	NA	NA	NA
+1685365277_ALC_dbgi_QC02.mzML	QC02	QC	NA	NA	NA
+1685365277_ALC_dbgi_QC03.mzML	QC03	QC	NA	NA	NA
+1685365277_ALC_dbgi_QC04.mzML	QC04	QC 	NA	NA	NA
+1685365277_ALC_dbgi_QC05.mzML	QC05	QC	NA	NA	NA
+1685365277_ALC_dbgi_QC06.mzML	QC06	QC	NA	NA	NA
