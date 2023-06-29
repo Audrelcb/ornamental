@@ -1,0 +1,53 @@
+filename;sample_type;ATTRIBUTE_species;ATTRIBUTE_genus;ATTRIBUTE_localisation
+1685365277_ALC_dbgi_001139_01_01.mzML;sample;Lonicera caprifolium;Lonicera;jbuf
+1685365277_ALC_dbgi_001140_01_01.mzML;sample;Clematis terniflora;Clematis;jbn
+1685365277_ALC_dbgi_001141_01_01.mzML;sample;Lonicera nigra;Lonicera;jbn
+1685365277_ALC_dbgi_001142_01_01.mzML;sample;Clematis koreana;Clematis;jbn
+1685365277_ALC_dbgi_001143_01_01.mzML;sample;Lonicera etrusca;Lonicera;jbn
+1685365277_ALC_dbgi_001144_01_01.mzML;sample;Clematis terniflora;Clematis;jbn
+1685365277_ALC_dbgi_001145_01_01.mzML;sample;Lonicera xylosteum;Lonicera;jbn
+1685365277_ALC_dbgi_001146_01_02.mzML;sample;Clematis tangutica;Clematis;jbn
+1685365277_ALC_dbgi_001147_01_01.mzML;sample;Lonicera caucasica;Lonicera;jbn
+1685365277_ALC_dbgi_001148_01_02.mzML;sample;Euonymus alatus;Euonymus;jbn
+1685365277_ALC_dbgi_001149_01_01.mzML;sample;Lonicera etrusca;Lonicera;jbn
+1685365277_ALC_dbgi_001150_01_01.mzML;sample;Clematis chinensis;Clematis;jbn
+1685365277_ALC_dbgi_001152_01_01.mzML;sample;Clematis flammula;Clematis;jbn
+1685365277_ALC_dbgi_001153_01_01.mzML;sample;Clematis chinensis;Clematis;jbn
+1685365277_ALC_dbgi_001156_01_01.mzML;sample;Clematis alpina;Clematis;jbuf
+1685365277_ALC_dbgi_001157_01_01.mzML;sample;Euonymus fortunei;Euonymus;jbuf
+1685365277_ALC_dbgi_001158_01_01.mzML;sample;Lonicera alpigena;Lonicera;jbuf
+1685365277_ALC_dbgi_001159_01_01.mzML;sample;Lonicera xylosteum;Lonicera;jbn
+1685365277_ALC_dbgi_001160_01_01.mzML;sample;Clematis alpina;Clematis;jbn
+1685365277_ALC_dbgi_001161_01_01.mzML;sample;Clematis vitalba;Clematis;jbn
+1685365277_ALC_dbgi_001162_01_01.mzML;sample;Clematis recta;Clematis;jbuf
+1685365277_ALC_dbgi_001163_01_01.mzML;sample;Lonicera implexa;Lonicera;jbn
+1685365277_ALC_dbgi_001166_01_01.mzML;sample;Lonicera caerulea;Lonicera;jbuf
+1685365277_ALC_dbgi_001169_01_01.mzML;sample;Lonicera japonica;Lonicera;jbuf
+1685365277_ALC_dbgi_001173_01_01.mzML;sample;Clematis recta;Clematis;jbn
+1685365277_ALC_dbgi_001174_01_01.mzML;sample;Lonicera nigra;Lonicera;jbuf
+1685365277_ALC_dbgi_001175_01_01.mzML;sample;Clematis viticella;Clematis;jbuf
+1685365277_ALC_dbgi_001176_01_01.mzML;sample;Lonicera tatarica;Lonicera;jbuf
+1685365277_ALC_dbgi_001177_01_02.mzML;sample;Euonymus europaeus;Euonymus;jbuf
+1685365277_ALC_dbgi_001178_01_01.mzML;sample;Euonymus alatus;Euonymus;jbuf
+1685365277_ALC_dbgi_001182_01_01.mzML;sample;Clematis alpina;Clematis;jbuf
+1685365277_ALC_dbgi_001183_01_01.mzML;sample;Lonicera kamtschatica;Lonicera;jbuf
+1685365277_ALC_dbgi_001184_01_01.mzML;sample;Lonicera periclymenum;Lonicera;jbuf
+1685365277_ALC_dbgi_001185_01_01.mzML;sample;Clematis heracleifolia;Clematis;jbuf
+1685365277_ALC_dbgi_001186_01_01.mzML;sample;Clematis vitalba;Clematis;jbuf
+1685365277_ALC_dbgi_001187_01_01.mzML;sample;Lonicera xylosteum;Lonicera;jbuf
+1685365277_ALC_dbgi_001188_01_01.mzML;sample;Clematis recta;Clematis;jbuf
+1685365277_ALC_dbgi_BK00.mzML;BK;BK;BK;NA
+1685365277_ALC_dbgi_QC00.mzML;QC;NA;NA;NA
+1685365277_ALC_dbgi_QC01.mzML;QC;NA;NA;NA
+1685365277_ALC_dbgi_QC02.mzML;QC;NA;NA;NA
+1685365277_ALC_dbgi_QC03.mzML;QC;NA;NA;NA
+1685365277_ALC_dbgi_QC04.mzML;QC ;NA;NA;NA
+1685365277_ALC_dbgi_QC05.mzML;QC;NA;NA;NA
+1685365277_ALC_dbgi_QC06.mzML;QC;NA;NA;NA
+1685365277_ALC_01.mzML;sample ;Clematis armandii;Clematis;travers
+1685365277_ALC_02.mzML;sample ;Lonicera heckrottii;Lonicera;cdhrc
+1687161692_PMA_ALC_13_20230619140041.mzML;sample ;Clematis viticella;Clematis;cdhrc
+1687161692_PMA_ALC_12_20230619134449.mzML;sample ;Clematis patens;Clematis;cdhrc
+1687161692_PMA_ALC_14_20230619141635.mzML;sample ;Euonymus fortunei;Euonymus;cdhrc
+1687161692_PMA_ALC_11_20230619132855.mzML;sample ;Lonicera heckrottii;Lonicera;cdhrc
+1687161692_PMA_BK_ALC_01_20230619131304.mzML;BK;BK;BK;NA
