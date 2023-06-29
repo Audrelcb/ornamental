@@ -1,0 +1,64 @@
+
+# default.yaml
+
+---
+# parameters
+
+options:
+  download_gnps_job: False #download on gnps and rename with job ID and place in the righ folder
+  do_spectral_match: False
+  do_taxo_resolving: True
+  do_chembl_match: False
+  keep_lowest_taxon: False
+  output_plots: False
+  
+paths:
+  gnps_job_id: 41f6d201e79f4575b890f958f89e1084 # The path were you want your folder to be placed
+  input_folder: /Users/Lecab/gitrepo/plantes_ornementales/ornamental/cdhrc_dbgi/pos/results/met_annot_enhancer/ # The path were you want your GNPS job folder to be placed
+  project_name: cdhrc_dbgi_alc_pos #ISDB_annot_LP_plantfungi_set # The name you want to give to your project, output resulst in data_out/project_name
+  output_folder: /Users/Lecab/gitrepo/plantes_ornementales/ornamental/cdhrc_dbgi/pos/results/met_annot_enhancer/ # the path for your output to be stored in
+  metadata_path: /Users/Lecab/largefiles/230106_frozen_metadata.csv/230106_frozen_metadata.csv # Path to the metadata of the spectral file /210715_inhouse_metadata.csv /211220_frozen_metadata.csv You can use multiple ones. Just list them as [a.csv, b.csv, c.csv]
+  db_file_path: /Users/Lecab/largefiles/isdb_pos_cleaned.pkl  # Path to your spectral library file. You can use multiple ones. Just list them as [a.mgf, b.mgf, c.mgf]
+  adducts_pos_path: data_loc/db_prepared_pos.tsv.gz # Path to the adducts file in pos mode
+  adducts_neg_path: data_loc/db_prepared_neg.tsv.gz # Path to the adducts file in neg mode
+
+metadata_params:
+  organism_header: 'organism_name' #Specifiy the header in the spectral db metadata file
+
+spectral_match_params:
+  parent_mz_tol: 0.01 # the parent mass tolerance to use for spectral matching (in Da)
+  msms_mz_tol: 0.01 # the msms mass tolerance to use for spectral matching (in Da)
+  min_cos: 0.2 # the minimal cosine to use for spectral matching
+  min_peaks: 6 # the minimal matching peaks number to use for spectral matching
+
+repond_params:
+  Top_N_Sample: 2 # Max number of contributors to take into account for taxo reponderation, set to 0 for all
+  top_to_output: 1 # Top X for final ouput
+  ppm_tol: 2 # ppm tol to be used for ms1 match
+  polarity: 'pos' # ion mode you are working with (pos or neg)
+  organism_header: 'ATTRIBUTE_species' # Mandatory: header of your samples' organism in metadata file
+  var_one_header: 'ATTRIBUTE_genus' # Optional (Run_line_x_line parameter)
+  sampletype_header: 'sample_type' # The header for a column describing the sample type (sample, BK or QC)
+  sampletype_value_sample: 'sample' # The value related to samples in the column describing the sample type.
+  sampletype_value_bk: 'BK' # The value related to blanks in the column describing the sample type.
+  sampletype_value_qc: 'QC' # The value related to QC in the column describing the sample type.
+  use_post_taxo: True # Set True if you want to use rank after taxonomical reweighting for consensus chemical class determination, else set to False
+  top_N_chemical_consistency: 15 # Top N to use for chemical consistency 
+  file_extension: '.mzML' # MS filename extension (or any common pattern in all your MS filenames)
+  msfile_suffix: ' Peak area' # MS filename suffix (for example ' Peak area') to remove to match with metadata, empty if nothing to remove
+  min_score_taxo_ms1: 6 # Minimum taxonomical score (5 = order, 6 = family, 7 = genus, 8 = species)
+  min_score_chemo_ms1: 1 # Minimum chemical consistency score (1 = NPClassifier pathway level consistency, 2 = NPClassifier superclass level consistency, 3 = NPClassifier class level consistency )
+  msms_weight: 4
+  taxo_weight: 1
+  chemo_weight: 0.5
+
+plotting_params:
+  drop_blanks: False #Wether to consider blanks or not in the outputs
+  drop_pattern: '^bk$|^QC$|^media$|^nd$|^ND$|^ND$|^Blank$|^BK$' #Wether to consider blanks or not in the outputs. These are regex be sure to add ^and $ to specify the position of the pattern
+  multi_plot: True #Wether to consider a single or a combined header in the sample selection
+
+filtering_params:
+  lib_to_keep: 'ISDB|MS1_match'
+  minimal_taxo_score: 6
+  minimal_chemo_score: 2
+  minimal_total_score: 8
