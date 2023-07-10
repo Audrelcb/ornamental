@@ -2,6 +2,110 @@
 import pandas as pd
 import io 
 
+#we defined the variable for the paths
+input_sirius_path = 'C:\Users\Lecab\gitrepo\plantes_ornementales\ornamental\cdhrc_dbgi\pos\results\sirius\compound_identifications.tsv'
+
+output_sirius_path = 'C:\Users\Lecab\gitrepo\plantes_ornementales\ornamental\cdhrc_dbgi\pos\results\sirius\compound_identifications_sirus_cleaned.tsv'
+
+intput_metannot_path = 
+
+
+# open compound_identifications.tsv (SIRIUS file)
+df = pd.read_csv(input_sirus_path, sep='\t') #change the path to your respective file
+suffix = "_sirius"
+
+#adding _sirius suffix
+for col in df.columns:
+    if col != "id":
+        new_col = col + suffix
+        df.rename(columns={col: new_col}, inplace=True)
+
+#for each element in column id, keep only the characters after the last '_'
+df['id'] = df['id'].str.split('_').str[-1]
+
+#Clean sirius file and save
+# List of columns to keep
+columns_to_keep = ['id', 'ConfidenceScore_sirius', 'CSI:FingerIDScore_sirius', 'ZodiacScore_sirius', 'SiriusScore_sirius', 'molecularFormula_sirius', 'adduct_sirius', 'InChIkey2D_sirius', 'InChI_sirius', 'name_sirius', 'smiles_sirius', 'xlogp_sirius', 'ionMass_sirius']
+
+# Drop unwanted columns
+columns_to_drop = [col for col in df.columns if col not in columns_to_keep]
+df = df.drop(columns_to_drop, axis=1)
+
+#save the new dataframe as a tsv file under the name compound_identifications_cleaned.tsv
+df.to_csv(r, sep='\t', index=False)
+
+
+#open the met_annont_enhancer file 
+df2 = pd.read_csv(r'C:\\Users\Lecab\gitrepo\plantes_ornementales\ornamental\cdhrc_dbgi\pos\results\met_annot_enhancer\cdhrc_dbgi_alc_pos\cdhrc_dbgi_alc_pos_spectral_match_results_repond.tsv', sep='\t')
+suffix = "_metAnnot"
+
+for col in df2.columns:
+    if col != "feature_id":
+        new_col = col + suffix
+        df2.rename(columns={col: new_col}, inplace=True)
+
+#save the new dataframe as a tsv file under the name compound_identifications_cleaned.tsv
+df.to_csv(r'C:\\Users\Lecab\gitrepo\plantes_ornementales\ornamental\cdhrc_dbgi\pos\results\met_annot_enhancer\cdhrc_dbgi_alc_pos\cdhrc_dbgi_alc_pos_spectral_match_results_repond_cleaned.tsv', sep='\t', index=False)
+df2.head()
+
+#open canopus_compound_summary.tsv 
+df3 = pd.read_csv(r'C:\Users\Lecab\gitrepo\plantes_ornementales\ornamental\cdhrc_dbgi\pos\results\sirius\canopus_formula_summary.tsv', sep='\t')
+suffix = "_canopus"
+for col in df3.columns:
+    if col != "id":
+        new_col = col + suffix
+        df3.rename(columns={col: new_col}, inplace=True)
+
+# List of columns to keep
+columns_to_keep = ['id', 'molecularFormula_canopus', 'adduct_canopus', 'NPC#pathway_canopus', 'NPC#superclass_canopus', 'NPC#class_canopus']
+
+# Drop unwanted columns
+columns_to_drop = [col for col in df3.columns if col not in columns_to_keep]
+df3 = df3.drop(columns_to_drop, axis=1)
+df3.head()
+
+#for each element in column id, keep only the characters after the last '_'
+df3['id'] = df3['id'].str.split('_').str[-1]
+
+#save the new dataframe as a tsv file under the name canopus_compound_summary_cleaned.tsv
+df3.to_csv(r'C:\Users\Lecab\gitrepo\plantes_ornementales\ornamental\cdhrc_dbgi\pos\results\sirius\canopus_formula_summary.tsv', sep='\t', index=False)
+
+
+## MERGING
+# Read the SIRIUS input files
+df1 = pd.read_csv(r'C:\Users\Lecab\gitrepo\plantes_ornementales\ornamental\cdhrc_dbgi\pos\results\sirius\compound_identifications_sirus_cleaned.tsv', sep='\t')
+
+# Merge the SIRIUS df with MetAnnot df based on the "id" or "feature_id" column
+merged_df = pd.merge(df1, df2, left_on='id', right_on='feature_id', how='outer')
+
+# Conserved only one column with the ID 
+merged_df['merge_id'] = merged_df['id'].fillna(merged_df['feature_id'])
+
+merged_df = merged_df.drop(['id', 'feature_id'], axis=1)
+
+merged_df['merge_id'] = merged_df['merge_id'].astype(int)
+
+# Saved the merged dataframe in a new file 
+merged_df.to_csv(r'C:\\Users\Lecab\largefiles\cdhrc_dbgi\pos\merge_met_annot_sirius\merged_met_annot_sirius.tsv', sep='\t', index=False)  # Replace with the name of you output file 
+
+df3 = pd.read_csv(r'C:\\Users\Lecab\largefiles\cdhrc_dbgi\pos\sirius_output\canopus_compound_summary_cleaned.tsv', sep='\t')
+df4 = pd.read_csv(r'C:\\Users\Lecab\largefiles\cdhrc_dbgi\pos\merge_met_annot_sirius\merged_met_annot_sirius.tsv', sep='\t')  # Replace with the name of you output file 
+df4.head()
+
+# Merge the dataframes based on the "id" or "feature_id" column
+merged_df = pd.merge(df3, df4, left_on='id', right_on='merge_id', how='outer')
+
+# Conserved only one column with the ID 
+merged_df['shared_id'] = merged_df['id'].fillna(merged_df['merge_id'])
+
+merged_df = merged_df.drop(['id', 'merge_id'], axis=1)
+
+merged_df['shared_id'] = merged_df['shared_id'].astype(int)
+
+# Saved the merged dataframe in a new file 
+merged_df.to_csv(r'C:\\Users\Lecab\largefiles\cdhrc_dbgi\pos\merge_met_annot_sirius\merged_met_annot_sirius_canopus.tsv', sep='\t', index=False)  # Replace with the name of you output file 
+
+df5 = pd.read_csv(r'C:\\Users\Lecab\largefiles\cdhrc_dbgi\pos\merge_met_annot_sirius\merged_met_annot_sirius_canopus.tsv', sep='\t')
 # %%
 #open quantification_table_reformatted corresponding to your gnps job (csv)
 df = pd.read_csv(r'C:\\Users\Lecab\gitrepo\plantes_ornementales\ornamental\cdhrc_dbgi\pos\results\met_annot_enhancer\41f6d201e79f4575b890f958f89e1084\quantification_table_reformatted\e5c06da409d8433eac9e35debe3498ea.csv') #change the path to your respective file

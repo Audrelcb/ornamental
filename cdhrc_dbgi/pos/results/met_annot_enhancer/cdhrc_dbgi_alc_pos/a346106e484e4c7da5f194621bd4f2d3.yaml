@@ -7,9 +7,9 @@ metadata_params:
   organism_header: organism_name
 options:
   do_chembl_match: true
-  do_spectral_match: true
+  do_spectral_match: false
   do_taxo_resolving: true
-  download_gnps_job: true
+  download_gnps_job: false
   keep_lowest_taxon: false
   output_plots: true
 paths:
