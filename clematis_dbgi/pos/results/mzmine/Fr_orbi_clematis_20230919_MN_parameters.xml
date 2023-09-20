@@ -1,0 +1,285 @@
+mzML file import via MSDK
+File names:	[/home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001140_01_01.mzML, /home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001142_01_01.mzML, /home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001144_01_01.mzML, /home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001146_01_02.mzML, /home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001150_01_01.mzML, /home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001152_01_01.mzML, /home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001153_01_01.mzML, /home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001156_01_01.mzML, /home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001160_01_01.mzML, /home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001161_01_01.mzML, /home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001162_01_01.mzML, /home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001173_01_01.mzML, /home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001175_01_01.mzML, /home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001182_01_01.mzML, /home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001185_01_01.mzML, /home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001186_01_01.mzML, /home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001188_01_01.mzML, /home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_BK00.mzML]
+
+Mass detection
+Raw data files:	Evaluation not executed.
+Scan filters:	MS1, level = 1, Polarity (+), Spectrum type (ANY), Scan definition () 
+	Scan number:	<not set>
+	Base Filtering Integer:	<not set>
+	Retention time:	<not set>
+	Mobility:	<not set>
+	MS level filter:	MS1, level = 1
+	Scan definition:	
+	Polarity:	+
+	Spectrum type:	ANY
+Scan types (IMS):	All scan types
+Mass detector:	Centroid
+	Noise level:	50000.0
+	Detect isotope signals below noise level:	false
+	Chemical elements:	[Element(554937636, S:H, AN:1), Element(194955206, S:C, AN:6), Element(79382867, S:N, AN:7), Element(1412073661, S:O, AN:8), Element(1760327057, S:S, AN:16)]
+	m/z tolerance:	5.0E-4 m/z or 10.0 ppm
+	Maximum charge of isotope m/z:	1
+Denormalize fragment scans (traps):	false
+Output netCDF filename (optional):	false	(null)
+
+Mass detection
+Raw data files:	Evaluation not executed.
+Scan filters:	MS2, level = 2, Polarity (+), Spectrum type (ANY), Scan definition () 
+	Scan number:	<not set>
+	Base Filtering Integer:	<not set>
+	Retention time:	<not set>
+	Mobility:	<not set>
+	MS level filter:	MS2, level = 2
+	Scan definition:	
+	Polarity:	+
+	Spectrum type:	ANY
+Scan types (IMS):	All scan types
+Mass detector:	Centroid
+	Noise level:	0.0
+	Detect isotope signals below noise level:	false
+	Chemical elements:	[Element(1077587765, S:H, AN:1), Element(1558854744, S:C, AN:6), Element(1738735641, S:N, AN:7), Element(608733177, S:O, AN:8), Element(832493378, S:S, AN:16)]
+	m/z tolerance:	5.0E-4 m/z or 10.0 ppm
+	Maximum charge of isotope m/z:	1
+Denormalize fragment scans (traps):	false
+Output netCDF filename (optional):	false	(null)
+
+ADAP Chromatogram Builder
+Raw data files:	Evaluation not executed.
+Scan filters:	MS1, level = 1, RT range (0.500 - 12.010), Polarity (+), Spectrum type (ANY), Scan definition () 
+	Scan number:	<not set>
+	Base Filtering Integer:	<not set>
+	Retention time:	[0.5..12.01]
+	Mobility:	<not set>
+	MS level filter:	MS1, level = 1
+	Scan definition:	
+	Polarity:	+
+	Spectrum type:	ANY
+Minimum consecutive scans:	4
+Minimum intensity for consecutive scans:	50000.0
+Minimum absolute height:	50000.0
+m/z tolerance (scan-to-scan):	0.002 m/z or 10.0 ppm
+Suffix:	chromatograms
+Allow single scan chromatograms:	{}
+
+ADAP feature resolver
+Feature lists:	1685365277_ALC_dbgi_BK00.mzML chromatograms deconvoluted deisotoped
+1685365277_ALC_dbgi_001144_01_01.mzML chromatograms deconvoluted deisotoped filtered
+1685365277_ALC_dbgi_001161_01_01.mzML chromatograms deconvoluted deisotoped
+1685365277_ALC_dbgi_001142_01_01.mzML chromatograms deconvoluted deisotoped filtered
+1685365277_ALC_dbgi_001153_01_01.mzML chromatograms deconvoluted deisotoped filtered
+1685365277_ALC_dbgi_001160_01_01.mzML chromatograms deconvoluted
+1685365277_ALC_dbgi_001182_01_01.mzML chromatograms
+1685365277_ALC_dbgi_001142_01_01.mzML chromatograms
+1685365277_ALC_dbgi_001185_01_01.mzML chromatograms deconvoluted deisotoped
+1685365277_ALC_dbgi_001153_01_01.mzML chromatograms deconvoluted
+1685365277_ALC_dbgi_001186_01_01.mzML chromatograms deconvoluted
+1685365277_ALC_dbgi_001182_01_01.mzML chromatograms deconvoluted deisotoped filtered
+1685365277_ALC_dbgi_001140_01_01.mzML chromatograms deconvoluted deisotoped filtered
+1685365277_ALC_dbgi_001146_01_02.mzML chromatograms deconvoluted deisotoped filtered
+1685365277_ALC_dbgi_001185_01_01.mzML chromatograms deconvoluted deisotoped filtered
+1685365277_ALC_dbgi_001150_01_01.mzML chromatograms
+filtered Aligned feature list grouped
+1685365277_ALC_dbgi_001175_01_01.mzML chromatograms
+1685365277_ALC_dbgi_001146_01_02.mzML chromatograms deconvoluted
+1685365277_ALC_dbgi_001188_01_01.mzML chromatograms deconvoluted deisotoped filtered
+1685365277_ALC_dbgi_001152_01_01.mzML chromatograms deconvoluted deisotoped filtered
+1685365277_ALC_dbgi_001185_01_01.mzML chromatograms deconvoluted
+1685365277_ALC_dbgi_001152_01_01.mzML chromatograms deconvoluted deisotoped
+1685365277_ALC_dbgi_001175_01_01.mzML chromatograms deconvoluted
+1685365277_ALC_dbgi_001160_01_01.mzML chromatograms deconvoluted deisotoped
+1685365277_ALC_dbgi_001173_01_01.mzML chromatograms deconvoluted
+1685365277_ALC_dbgi_001146_01_02.mzML chromatograms deconvoluted deisotoped
+1685365277_ALC_dbgi_001142_01_01.mzML chromatograms deconvoluted
+1685365277_ALC_dbgi_BK00.mzML chromatograms deconvoluted
+1685365277_ALC_dbgi_001175_01_01.mzML chromatograms deconvoluted deisotoped
+1685365277_ALC_dbgi_001161_01_01.mzML chromatograms
+1685365277_ALC_dbgi_001156_01_01.mzML chromatograms deconvoluted deisotoped
+1685365277_ALC_dbgi_001160_01_01.mzML chromatograms deconvoluted deisotoped filtered
+1685365277_ALC_dbgi_001153_01_01.mzML chromatograms deconvoluted deisotoped
+1685365277_ALC_dbgi_001156_01_01.mzML chromatograms deconvoluted deisotoped filtered
+1685365277_ALC_dbgi_001162_01_01.mzML chromatograms deconvoluted deisotoped filtered
+1685365277_ALC_dbgi_001188_01_01.mzML chromatograms deconvoluted
+filtered Aligned feature list
+1685365277_ALC_dbgi_001182_01_01.mzML chromatograms deconvoluted
+1685365277_ALC_dbgi_001188_01_01.mzML chromatograms deconvoluted deisotoped
+1685365277_ALC_dbgi_001150_01_01.mzML chromatograms deconvoluted
+1685365277_ALC_dbgi_BK00.mzML chromatograms deconvoluted deisotoped filtered
+1685365277_ALC_dbgi_001156_01_01.mzML chromatograms deconvoluted
+1685365277_ALC_dbgi_001160_01_01.mzML chromatograms
+1685365277_ALC_dbgi_001144_01_01.mzML chromatograms deconvoluted
+1685365277_ALC_dbgi_BK00.mzML chromatograms
+1685365277_ALC_dbgi_001188_01_01.mzML chromatograms
+1685365277_ALC_dbgi_001173_01_01.mzML chromatograms
+1685365277_ALC_dbgi_001150_01_01.mzML chromatograms deconvoluted deisotoped filtered
+1685365277_ALC_dbgi_001140_01_01.mzML chromatograms deconvoluted deisotoped
+1685365277_ALC_dbgi_001175_01_01.mzML chromatograms deconvoluted deisotoped filtered
+1685365277_ALC_dbgi_001173_01_01.mzML chromatograms deconvoluted deisotoped
+1685365277_ALC_dbgi_001153_01_01.mzML chromatograms
+1685365277_ALC_dbgi_001186_01_01.mzML chromatograms
+1685365277_ALC_dbgi_001144_01_01.mzML chromatograms deconvoluted deisotoped
+1685365277_ALC_dbgi_001140_01_01.mzML chromatograms
+1685365277_ALC_dbgi_001161_01_01.mzML chromatograms deconvoluted deisotoped filtered
+1685365277_ALC_dbgi_001140_01_01.mzML chromatograms deconvoluted
+1685365277_ALC_dbgi_001144_01_01.mzML chromatograms
+1685365277_ALC_dbgi_001142_01_01.mzML chromatograms deconvoluted deisotoped
+1685365277_ALC_dbgi_001162_01_01.mzML chromatograms
+1685365277_ALC_dbgi_001186_01_01.mzML chromatograms deconvoluted deisotoped
+1685365277_ALC_dbgi_001185_01_01.mzML chromatograms
+1685365277_ALC_dbgi_001161_01_01.mzML chromatograms deconvoluted
+1685365277_ALC_dbgi_001162_01_01.mzML chromatograms deconvoluted
+Aligned feature list
+1685365277_ALC_dbgi_001156_01_01.mzML chromatograms
+1685365277_ALC_dbgi_001162_01_01.mzML chromatograms deconvoluted deisotoped
+1685365277_ALC_dbgi_001186_01_01.mzML chromatograms deconvoluted deisotoped filtered
+1685365277_ALC_dbgi_001146_01_02.mzML chromatograms
+1685365277_ALC_dbgi_001152_01_01.mzML chromatograms
+1685365277_ALC_dbgi_001182_01_01.mzML chromatograms deconvoluted deisotoped
+1685365277_ALC_dbgi_001150_01_01.mzML chromatograms deconvoluted deisotoped
+1685365277_ALC_dbgi_001152_01_01.mzML chromatograms deconvoluted
+1685365277_ALC_dbgi_001173_01_01.mzML chromatograms deconvoluted deisotoped filtered
+Suffix:	deconvoluted
+Original feature list:	KEEP
+MS/MS scan pairing:	true
+	MS1 to MS2 precursor tolerance (m/z):	0.002 m/z or 10.0 ppm
+	Retention time filter:	RtLimitsFilter[filter=Use tolerance, rtTolerance=0.4 minutes]
+	Minimum relative feature height:	false	(0.25)
+	Minimum required signals:	false	(1)
+	Limit by ion mobility edges:	false
+	Merge MS/MS spectra (TIMS):	false
+	Minimum signal intensity (absolute, TIMS):	false	(250.0)
+	Minimum signal intensity (relative, TIMS):	false	(0.01)
+Dimension:	Retention time
+S/N threshold:	30.0
+S/N estimator:	Intensity window SN
+min feature height:	100000.0
+Coefficient/area threshold:	110.0
+Peak duration range:	[0.01..1.0]
+RT wavelet range:	[0.01..0.8]
+
+13C isotope filter (formerly: isotope grouper)
+Feature lists:	filtered Aligned feature list grouped
+Name suffix:	deisotoped
+m/z tolerance (intra-sample):	0.005 m/z or 8.0 ppm
+Retention time tolerance:	0.03 minutes
+Mobility tolerance:	false	(null)
+Monotonic shape:	false
+Maximum charge:	3
+Representative isotope:	Most intense
+Never remove feature with MS2:	true
+Original feature list:	KEEP
+
+Filtering feature list rows
+Feature lists:	filtered Aligned feature list grouped
+Name suffix:	filtered
+Minimum aligned features (samples):	false	(abs=1 and rel=0)
+Minimum features in an isotope pattern:	false	(2)
+Validate 13C isotope pattern:	false
+	m/z tolerance:	5.0E-4 m/z or 10.0 ppm
+	Max charge:	1
+	Estimate minimum carbon:	true
+	Remove if 13C:	true
+	Exclude isotopes:	[Element(1674467928, S:H, AN:1), Element(1385184644, S:C, AN:6), Element(1369156765, S:N, AN:7), Element(1136902513, S:O, AN:8), Element(1380868043, S:S, AN:16)]
+Remove redundant isotope rows:	false
+m/z:	false	(null)
+Retention time:	true	([0.5..12.0])
+features duration range:	false	([0.0..3.0])
+Chromatographic FWHM:	false	([0.0..1.0])
+Charge:	false	([1..2])
+Kendrick mass defect:	false
+	Kendrick mass defect:	[0.0..1.0]
+	Kendrick mass base:	
+	Shift:	0.0
+	Charge:	1
+	Divisor:	1
+	Use Remainder of Kendrick mass:	false
+Parameter:	No parameters defined
+Only identified?:	false
+Text in identity:	false	()
+Text in comment:	false	()
+Keep or remove rows:	Keep rows that match all criteria
+Feature with MS2 scan:	true
+Never remove feature with MS2:	false
+Reset the feature number ID:	true
+Mass defect:	false	(null)
+Original feature list:	KEEP
+
+Join aligner
+Feature lists:	filtered Aligned feature list grouped
+Feature list name:	filtered Aligned feature list
+m/z tolerance (sample-to-sample):	0.008 m/z or 20.0 ppm
+Weight for m/z:	2.0
+Retention time tolerance:	0.2 minutes
+Weight for RT:	1.0
+Mobility tolerance:	false	(null)
+Mobility weight:	0.0
+Require same charge state:	false
+Require same ID:	false
+Compare isotope pattern:	false
+	Isotope m/z tolerance:	0.001 m/z or 5.0 ppm
+	Minimum absolute intensity:	<not set>
+	Minimum score:	<not set>
+Compare spectra similarity:	false
+	Spectral m/z tolerance:	0.001 m/z or 10.0 ppm
+	MS level:	2
+	Compare spectra similarity:	Weighted cosine similarity
+	Weights:	MassBank (mz^2 * I^0.5)
+	Minimum  cos similarity:	0.7
+	Handle unmatched signals:	KEEP ALL AND MATCH TO ZERO
+Original feature list:	KEEP
+
+Correlation grouping (metaCorrelate)
+Feature lists:	filtered Aligned feature list grouped
+RT tolerance:	0.1 minutes
+Minimum feature height:	0.0
+Intensity threshold for correlation:	0.0
+Min samples filter:	Min samples in all: abs=2 and rel=0, Min samples in group: abs=0 and rel=0, Min %-intensity overlap: 0.6, Exclude gap-filled features: true
+	Min samples in all:	abs=2 and rel=0
+	Min samples in group:	abs=0 and rel=0
+	Min %-intensity overlap:	0.6
+	Exclude gap-filled features:	true
+Feature shape correlation:	true
+	Min data points:	5
+	Min data points on edge:	2
+	Measure:	PEARSON
+	Min feature shape correlation:	0.85
+	Min total correlation:	false	(0.5)
+Feature height correlation:	true
+	Minimum samples:	2
+	Measure:	PEARSON
+	Min correlation:	0.7
+Suffix (or auto):	true	(grouped)
+
+Ion identity networking
+Feature lists:	filtered Aligned feature list grouped
+m/z tolerance (intra-sample):	0.001 m/z or 3.0 ppm
+Check:	ONE FEATURE
+Min height:	10000.0
+Ion identity library:	true
+	MS mode:	POSITIVE
+	Maximum charge:	2
+	Maximum molecules/cluster:	3
+	Adducts:	[[Lio.github.mzmine.datamodel.identities.iontype.IonModification;@161341b, [Lio.github.mzmine.datamodel.identities.iontype.IonModification;@d928fee]
+Annotation refinement:	true
+	Minimum size:	false	(1)
+	Delete small networks without major ion:	true
+	Delete smaller networks: Link threshold:	true	(4)
+	Delete networks without monomer:	true
+	Delete rows witout ion id:	false
+
+Export for SIRIUS
+Feature lists:	filtered Aligned feature list grouped
+Filename:	/home/user/Documents/Audrey/gitrepo/ornamental/clematis_dbgi/pos/results/mzmine/Fr_orbi_clematis_20230919_MN_sirius.mgf
+Merge MS/MS:	true
+	Select spectra to merge:	across samples
+	m/z merge mode:	weighted average (remove outliers)
+	intensity merge mode:	sum intensities
+	Expected mass deviation:	0.001 m/z or 5.0 ppm
+	Cosine threshold (%):	0.7
+	Signal count threshold (%):	0.2
+	Isolation window offset (m/z):	0.0
+	Isolation window width (m/z):	3.0
+m/z tolerance:	0.003 m/z or 5.0 ppm
+Only rows with annotation:	false
+Exclude multiple charge:	false
+Exclude multimers:	false
+
