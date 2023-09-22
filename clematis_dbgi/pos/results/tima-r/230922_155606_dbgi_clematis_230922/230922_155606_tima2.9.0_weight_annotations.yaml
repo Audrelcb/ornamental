@@ -1,0 +1,74 @@
+annotations:
+  candidates:
+    final: 3
+    initial: 50
+  ms1only: no
+  thresholds:
+    consistency: 0
+    ms1:
+      biological: 0.6
+      chemical: 0.6
+      condition: OR
+files:
+  pattern: dbgi_clematis_230922
+  annotations:
+    filtered: data/interim/annotations/example_annotations_filtered.tsv.gz
+    prepared:
+      canopus: data/interim/annotations/456464b06a5245e99c07f660d29106bc_canopus_prepared.tsv.gz
+      formula: data/interim/annotations/456464b06a5245e99c07f660d29106bc_formula_prepared.tsv.gz
+    processed: annotations.tsv
+  libraries:
+    sop:
+      merged:
+        keys: data/interim/libraries/sop/merged/keys.tsv.gz
+        organisms:
+          taxonomies:
+            ott: data/interim/libraries/sop/merged/organisms/taxonomies/ott.tsv.gz
+        structures:
+          stereo: data/interim/libraries/sop/merged/structures/stereo.tsv.gz
+  networks:
+    spectral:
+      components:
+        prepared: data/interim/features/456464b06a5245e99c07f660d29106bc_components_prepared.tsv.gz
+      edges:
+        prepared: data/interim/features/456464b06a5245e99c07f660d29106bc_edges.tsv.gz
+  taxa:
+    prepared: data/interim/taxa/456464b06a5245e99c07f660d29106bc_taxed.tsv.gz
+  features:
+    prepared: []
+weights:
+  global:
+    biological: 0.5
+    chemical: 0.166
+    spectral: 0.333
+  biological:
+    domain: 0.1
+    kingdom: 0.2
+    phylum: 0.3
+    class: 0.4
+    order: 0.5
+    infraorder: 0.55
+    family: 0.6
+    subfamily: 0.65
+    tribe: 0.7
+    subtribe: 0.75
+    genus: 0.8
+    subgenus: 0.85
+    species: 0.9
+    subspecies: 0.95
+    variety: 1
+  chemical:
+    cla:
+      kingdom: 0.25
+      superclass: 0.75
+      class: 0.75
+      parent: 1
+    npc:
+      pathway: 0.25
+      superclass: 0.5
+      class: 0.75
+options:
+  compounds_names: no
+  force: no
+  summarise: yes
+  compound_names: no
