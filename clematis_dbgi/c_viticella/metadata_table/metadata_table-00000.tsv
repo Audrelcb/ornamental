@@ -1,0 +1,4 @@
+filename	sample_id	sample_type	ATTRIBUTE_species	ATTRIBUTE_genus	ATTRIBUTE_localisation
+1685365277_ALC_dbgi_001175_01_01.mzML	dbgi_001175	sample	Clematis viticella	Clematis	jbuf
+1685365277_ALC_dbgi_BK00.mzML	BK00_dbgi	BK	BK	BK	NA
+1687161692_PMA_ALC_13_20230619140041.mzML	ALC_13	sample	Clematis viticella	Clematis	cdhrc
