@@ -1,0 +1,19 @@
+name: env_visualisation
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+  - anaconda
+dependencies:
+  - python==3.8
+  - pandas
+  - numpy
+  - grequests
+  - tqdm
+  - os
+  - plotly
+  - matplotlib
+  - pip
+  - pyyaml
+  - pip :
+    - opentree
