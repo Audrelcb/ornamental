@@ -1,0 +1,8 @@
+ID1,ID2,EdgeType,Score,Annotation
+50,53,MS1 annotation,2.000,[M+HFA+H]+ [M+NH4]+ dm/z=28.9789
+51,52,MS1 annotation,2.000,[M+ACN+H]+ [M+NH4]+ dm/z=23.9996
+53,54,MS1 annotation,2.000,[M+NH4]+ [M+H]+ dm/z=17.0264
+126,129,MS1 annotation,2.000,[M+Na]+ [M+H]+ dm/z=21.9820
+126,129,MS1 annotation,2.000,[M+Na]+ [2M+2H]+2 dm/z=21.9820
+416,418,MS1 annotation,2.000,[M+Na]+ [M-2H2O+H]+ dm/z=58.0031
+578,579,MS1 annotation,2.000,[M-H2O+2H]+2 [M+Na]+ dm/z=202.0602
