@@ -1,0 +1,12 @@
+filename	sample_id	sample_type	ATTRIBUTE_species	ATTRIBUTE_genus	ATTRIBUTE_localisation
+1685365277_ALC_dbgi_001142_01_01.mzML	dbgi_001142	sample	Clematis koreana	Clematis	jbn
+1685365277_ALC_dbgi_001144_01_01.mzML	dbgi_001144	sample	Clematis terniflora	Clematis	jbn
+1685365277_ALC_dbgi_001146_01_02.mzML	dbgi_001146	sample	Clematis tangutica	Clematis	jbn
+1685365277_ALC_dbgi_001153_01_01.mzML	dbgi_001153	sample	Clematis chinensis	Clematis	jbn
+1685365277_ALC_dbgi_001152_01_01.mzML	dbgi_001152	sample	Clematis flammula	Clematis	jbn
+1685365277_ALC_dbgi_001161_01_01.mzML	dbgi_001161	sample	Clematis vitalba	Clematis	jbn
+1685365277_ALC_dbgi_001162_01_01.mzML	dbgi_001162	sample	Clematis recta	Clematis	jbuf
+1685365277_ALC_dbgi_001175_01_01.mzML	dbgi_001175	sample	Clematis viticella	Clematis	jbuf
+1685365277_ALC_dbgi_001182_01_01.mzML	dbgi_001182	sample	Clematis alpina	Clematis	jbuf
+1685365277_ALC_dbgi_001185_01_01.mzML	dbgi_001185	sample	Clematis heracleifolia	Clematis	jbuf
+1685365277_ALC_dbgi_BK00.mzML	BK00_dbgi	BK	BK	BK	NA
