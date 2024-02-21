@@ -1,0 +1,13 @@
+files:
+  pattern: clematis_crop_qtof
+  features:
+    raw: /tmp/Rtmp24E7DZ/b66a0de6036d455de1921a73/0.csv
+  metadata:
+    raw: /tmp/Rtmp24E7DZ/f8fe2af17d94ddb693e29ef1/0.tsv
+  spectral:
+    raw: /tmp/Rtmp24E7DZ/4fa3c8ee46cd560b8607c643/0.mgf
+ms:
+  polarity: pos
+organisms: {}
+options:
+  summarise: yes

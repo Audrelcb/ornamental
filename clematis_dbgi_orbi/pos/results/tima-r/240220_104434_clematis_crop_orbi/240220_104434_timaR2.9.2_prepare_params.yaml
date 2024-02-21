@@ -1,0 +1,13 @@
+files:
+  pattern: clematis_crop_orbi
+  features:
+    raw: /tmp/RtmpMtFxqW/d774b1087fc4b841e3e783e0/0.csv
+  metadata:
+    raw: /tmp/RtmpMtFxqW/6a70fe2ff5266f0dd4aab8b7/0.tsv
+  spectral:
+    raw: /tmp/RtmpMtFxqW/a349c6d6ddf87b3f0c2ffe3a/0.mgf
+ms:
+  polarity: pos
+organisms: {}
+options:
+  summarise: yes
