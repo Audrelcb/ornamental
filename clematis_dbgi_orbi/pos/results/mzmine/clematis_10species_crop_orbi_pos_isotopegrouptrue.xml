@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><batch mzmine_version="3.9.0">
     <batchstep method="io.github.mzmine.modules.io.import_rawdata_mzml.MSDKmzMLImportModule" parameter_version="1">
         <parameter name="File names">
-            <file>/home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_BK00.mzML</file>
-            <file>/home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001185_01_01.mzML</file>
-            <file>/home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001182_01_01.mzML</file>
-            <file>/home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001175_01_01.mzML</file>
-            <file>/home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001162_01_01.mzML</file>
-            <file>/home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001161_01_01.mzML</file>
-            <file>/home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001153_01_01.mzML</file>
-            <file>/home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001152_01_01.mzML</file>
-            <file>/home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001146_01_02.mzML</file>
-            <file>/home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001144_01_01.mzML</file>
             <file>/home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001142_01_01.mzML</file>
+            <file>/home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001144_01_01.mzML</file>
+            <file>/home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001146_01_02.mzML</file>
+            <file>/home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001152_01_01.mzML</file>
+            <file>/home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001153_01_01.mzML</file>
+            <file>/home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001161_01_01.mzML</file>
+            <file>/home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001162_01_01.mzML</file>
+            <file>/home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001175_01_01.mzML</file>
+            <file>/home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001182_01_01.mzML</file>
+            <file>/home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_001185_01_01.mzML</file>
+            <file>/home/user/Documents/Audrey/converted data/Unifr/1685365277_ALC_dbgi_BK00.mzML</file>
         </parameter>
     </batchstep>
     <batchstep method="io.github.mzmine.modules.dataprocessing.featdet_massdetection.MassDetectionModule" parameter_version="1">
@@ -19,10 +19,7 @@
         <parameter name="Scan filters" selected="true">
             <parameter name="Scan number"/>
             <parameter name="Base Filtering Integer"/>
-            <parameter name="Retention time">
-                <min>1.9</min>
-                <max>10.0</max>
-            </parameter>
+            <parameter name="Retention time"/>
             <parameter name="Mobility"/>
             <parameter name="MS level filter" selected="MS1, level = 1">2</parameter>
             <parameter name="Scan definition"/>
@@ -89,10 +86,7 @@
         <parameter name="Scan filters" selected="true">
             <parameter name="Scan number"/>
             <parameter name="Base Filtering Integer"/>
-            <parameter name="Retention time">
-                <min>1.9</min>
-                <max>10.0</max>
-            </parameter>
+            <parameter name="Retention time"/>
             <parameter name="Mobility"/>
             <parameter name="MS level filter" selected="MS2, level = 2">2</parameter>
             <parameter name="Scan definition"/>
